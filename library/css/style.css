@@ -1355,13 +1355,18 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background: url("../images//background-1.png");
+  background: url("../images/background-1.png");
   height: 418px; }
 
 #logo {
-  margin: 0.75em 0; }
-  #logo a {
-    color: white; }
+  margin-top: 25px;
+  display: inline-block;
+  float: left; }
+
+#title {
+  margin-top: 25px;
+  display: inline-block;
+  float: left; }
 
 /*********************
 NAVIGATION STYLES

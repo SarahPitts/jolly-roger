@@ -153,16 +153,20 @@ HEADER STYLES
 
 .header {
 	
-	background: url('../images//background-1.png');
+	background: url('../images/background-1.png');
 	height: 418px;
 }
 
 	#logo {
-		margin: 0.75em 0;
+		margin-top: 25px;
+		display: inline-block;
+		float: left;
+	}
 
-		a {
-			color: $white;
-		}
+	#title {
+		margin-top: 25px;
+		display: inline-block;
+		float: left;
 	}
 
 /*********************
