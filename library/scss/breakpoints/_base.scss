@@ -21,6 +21,11 @@ body {
 	line-height: 1.5;
 	color: $text-color;
 	background-color: $gray;
+	background: url('../images/background-3.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -158,13 +163,14 @@ HEADER STYLES
 }
 
 	#logo {
-		margin-top: 25px;
+		margin-top: 28px;
+		margin-right: 33px;
 		display: inline-block;
 		float: left;
 	}
 
 	#title {
-		margin-top: 25px;
+		margin-top: 28px;
 		display: inline-block;
 		float: left;
 	}
@@ -261,10 +267,13 @@ POSTS & CONTENT STYLES
 }
 
 		.hentry {
-			background-color: $white;
+			background: url('../images/background-4.png');
 			border-radius: 3px;
 			margin-bottom: 1.5em;
 			border: 1px solid $border-color;
+			width: 96%;
+			margin-top: -235px;
+			z-index: 3;
 
 			header {
 				border-bottom: 1px solid $light-gray;
@@ -869,6 +878,8 @@ FOOTER STYLES
 	clear: both;
 	background-color: $black;
 	color: $light-gray;
+	background: url('../images/background-2.png');
+	height: 239px;
 }
 
 	/*

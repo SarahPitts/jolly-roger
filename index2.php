@@ -19,7 +19,9 @@
 
 								</header>
 
-								
+								<section class="entry-content cf">
+									<?php the_content(); ?>
+								</section>
 
 								<footer class="article-footer cf">
 									<p class="footer-comment-count">
@@ -59,7 +61,7 @@
 
 						</div>
 
-					
+					<?php get_sidebar(); ?>
 
 				</div>
 

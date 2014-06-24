@@ -1249,6 +1249,11 @@ body {
   line-height: 1.5;
   color: #5c6b80;
   background-color: #eaedf2;
+  background: url("../images/background-3.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   -webkit-font-smoothing: antialiased; }
 
 /********************
@@ -1359,12 +1364,13 @@ HEADER STYLES
   height: 418px; }
 
 #logo {
-  margin-top: 25px;
+  margin-top: 28px;
+  margin-right: 33px;
   display: inline-block;
   float: left; }
 
 #title {
-  margin-top: 25px;
+  margin-top: 28px;
   display: inline-block;
   float: left; }
 
@@ -1415,10 +1421,13 @@ POSTS & CONTENT STYLES
   margin-top: 1.5em; }
 
 .hentry {
-  background-color: white;
+  background: url("../images/background-4.png");
   border-radius: 3px;
   margin-bottom: 1.5em;
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+  width: 96%;
+  margin-top: -235px;
+  z-index: 3; }
   .hentry header {
     border-bottom: 1px solid #f8f9fa;
     padding: 1.5em; }
@@ -1739,7 +1748,9 @@ FOOTER STYLES
 .footer {
   clear: both;
   background-color: #323944;
-  color: #f8f9fa; }
+  color: #f8f9fa;
+  background: url("../images/background-2.png");
+  height: 239px; }
 
 /*
 if you checked out the link above:

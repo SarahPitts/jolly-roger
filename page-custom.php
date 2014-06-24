@@ -27,6 +27,10 @@
 
 								<header class="article-header">
 
+									<div id="title">
+
+									<img src="<?php bloginfo('template_directory'); ?>/library/images/slider.jpg" /></div>
+
 									<h1 class="page-title"><?php the_title(); ?></h1>
 
 									<p class="byline vcard">
@@ -91,7 +95,7 @@
 
 						</div>
 
-						<?php get_sidebar(); ?>
+						
 
 				</div>
 
